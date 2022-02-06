@@ -1,0 +1,911 @@
+body{
+    margin:0%;
+    padding: 0%;
+    animation: transitionIn 1s;
+}
+#header{
+    height:80px;
+    background-color: #07ffa0;
+}
+#heading{
+    margin-left: 40%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: grey;
+    animation: animate 4s;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#container{
+    background-color: rgb(47, 224, 255);
+    height: 40%;
+    width: 45%;
+    margin-left: 25%;
+    border-radius: 25px;
+}
+
+#ccg{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:white;
+    font-size: larger;
+    -webkit-text-stroke-color: grey;
+    -webkit-text-stroke-width: 0.3px;
+}
+#tbl{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+input{
+    border-radius: 10px;
+    border-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    
+}
+#AddSubject{
+   margin-left: 10%;
+   margin-top: 5%;
+   border-radius: 20px;
+   height: 25px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: bolder;
+   border-color: white;
+   background-color: white;
+   color: yellowgreen;
+   margin-bottom: 2%;
+}
+
+#Count{
+   margin-left: 20%;
+   margin-top: 5%;
+   border-radius: 20px;
+   height: 25px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: bolder;
+   border-color: white;
+   background-color: white;
+   color: yellowgreen;
+}
+#cross{
+    color: white;
+    background-color: red;
+    border-radius: 25px;
+    border-color: red;
+}
+#CGPAtxt{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:blue;
+    font-weight: bolder;
+    margin-left: 20%;
+    
+    
+}
+#CGPAcount{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    margin-left: 1%;
+    color: red;
+    
+}
+p{
+    display: inline-block;
+}
+#stats{
+    margin-left: 25%;
+    margin-top: 3%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    color: #0098a3;
+
+}
+#totcred{
+   color: rgb(148, 3, 3);
+}
+#Academic{
+    margin-left: 25%;
+    margin-top: 3%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+}
+#progressbar{
+    height: 8px;
+    border-radius: 5px;
+    background-color: gainsboro;
+    margin-left: 25%;
+    margin-right: 30%;
+
+}
+#progress{
+    height: 8px;
+    width: 0%;
+    border-radius: 5px;
+    background-color: rgb(42, 245, 69);
+    
+}
+
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes animate{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+
+
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px rgb(0,0,0,0.25);
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: #0e11b4;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #2326ff;
+}
+
+
+
+/*responsive design  */
+
+
+
+
+@media screen and (max-width:1482px){
+    #container{
+        width: 48%;
+    }
+}
+@media screen and (min-width:1392px) and (max-width:1402px){
+    #container{
+       
+        height: 38%;
+        width: 48%;
+        margin-left: 23%;
+        border-radius: 25px;
+    }
+}
+@media screen and (min-width:1332px) and (max-width:1391px){
+    #container{
+        width: 50%;
+        margin-left: 23%;
+    }
+}
+@media screen and (min-width:1304px) and (max-width:1338px){
+    #container{
+        width: 51%;
+        margin-left: 22%;
+    }
+}
+@media screen and (min-width:1294px) and (max-width:1305px){
+     
+    #container{
+        width: 52%;
+        margin-left: 22%;
+    }
+}
+@media screen and (min-width:1274px) and (max-width:1293px){
+    #container{
+        width: 52%;
+        margin-left: 22%;
+    }
+}
+@media screen and (min-width:1224px) and (max-width:1274px){
+    #container{
+        width: 54%;
+        margin-left: 21%;
+    }
+}
+@media screen and (min-width:1200px) and (max-width:1224px){
+    #container{
+        width: 55%;
+        margin-left: 21%;
+    }
+    
+
+}
+@media screen and (min-width:1169px) and (max-width:1200px){
+    #container{
+        width: 57%;
+        margin-left: 21%;
+    }
+
+
+}
+@media screen and (min-width:1110px) and (max-width:1169px){
+    #container{
+        width: 61%;
+        margin-left: 21%;
+    }
+
+
+}
+@media screen and (min-width:1055px) and (max-width:1110px){
+    #container{
+        width: 63%;
+        margin-left: 21%;
+    }
+
+
+}
+@media screen and (min-width:1027px) and (max-width:1055px){
+    #container{
+        width: 65%;
+        margin-left: 20%;
+    }
+
+
+}
+
+@media screen and (min-width:990px) and (max-width:1027px){
+    #container{
+        width: 67%;
+        margin-left: 18%;
+    }
+
+
+}
+
+@media screen and (min-width:990px) and (max-width:1027px){
+    #container{
+        width: 67%;
+        margin-left: 18%;
+    }
+
+
+}
+@media screen and (min-width:976px) and (max-width:990px){
+    #container{
+        width: 68%;
+        margin-left: 16%;
+    }
+    #heading{
+        margin-left: 35%;
+
+    }
+
+
+}
+
+@media screen and (min-width:950px) and (max-width:976px){
+    #container{
+        width: 70%;
+        margin-left: 15%;
+    }
+    #heading{
+        margin-left: 35%;
+
+    }
+
+
+}
+@media screen and (min-width:900px) and (max-width:950px){
+    #container{
+        width: 74%;
+        margin-left: 13%;
+    }
+    #heading{
+        margin-left: 35%;
+
+    }
+
+
+}
+@media screen and (min-width:878px) and (max-width:900px){
+    #container{
+        width: 76%;
+        margin-left: 12%;
+    }
+    #heading{
+        margin-left: 35%;
+
+    }
+
+
+}
+
+@media screen and (min-width:854px) and (max-width:878px){
+    #container{
+        width: 78%;
+        margin-left: 11%;
+    }
+    #heading{
+        margin-left: 35%;
+
+    }
+
+
+}
+
+@media screen and (min-width:822px) and (max-width:854px){
+    #container{
+        width: 81%;
+        margin-left: 10%;
+    }
+    #heading{
+        margin-left: 35%;
+
+    }
+
+
+}
+@media screen and (min-width:800px) and (max-width:822px){
+    #container{
+        width: 83%;
+        margin-left: 9%;
+    }
+    #heading{
+        margin-left: 35%;
+
+    }
+
+
+}
+@media screen and (min-width:788px) and (max-width:800px){
+    #container{
+        width: 85%;
+        margin-left: 8%;
+    }
+    #heading{
+        margin-left: 35%;
+
+    }
+
+
+}@media screen and (min-width:784px) and (max-width:788px){
+    #container{
+        width: 85%;
+        margin-left: 7%;
+    }
+    #heading{
+        margin-left: 35%;
+
+    }
+
+}
+@media screen and (min-width:770px) and (max-width:784px){
+    #container{
+        width: 87%;
+        margin-left: 6%;
+    }
+    #heading{
+        margin-left: 35%;
+
+    }
+
+}
+@media screen and (min-width:738px) and (max-width:770px){
+    #container{
+        width: 70%;
+        margin-left: 15%;
+    }
+    #heading{
+        margin-left: 35%;
+
+    }
+    input{
+        width: 130px;
+    }
+
+
+}
+@media screen and (min-width:690px) and (max-width:738px){
+    #container{
+        width: 70%;
+        margin-left: 15%;
+    }
+    #heading{
+        margin-left: 35%;
+
+    }
+    input{
+        width: 120px;
+    }
+    #Count{
+       margin-left: 15%;
+
+    }
+    #CGPAtxt{
+        margin-left: 10%;
+    }
+
+
+}
+@media screen and (min-width:650px) and (max-width:690px){
+    #container{
+        width: 65%;
+        margin-left: 17%;
+    }
+    #heading{
+        margin-left: 33%;
+
+    }
+    input{
+        width: 102px;
+        height: 13px;
+    }
+    #Count{
+       margin-left: 12%;
+
+    }
+    #CGPAtxt{
+        margin-left: 9%;
+    }
+
+
+}
+@media screen and (min-width:600px) and (max-width:650px){
+    #container{
+        width: 60%;
+        margin-left: 17%;
+    }
+    #heading{
+        margin-left: 32%;
+        font-size: 20px;
+
+    }
+    input{
+        width: 85px;
+        height: 13px;
+    }
+    #ccg{
+     font-size: 15px;
+
+
+    }
+    #Count{
+       margin-left: 12%;
+       height:20px ;
+       font-size: 10px;
+    }
+    #CGPAtxt{
+        margin-left: 9%;
+        font-size: 10px;
+    }
+    #AddSubject{
+      height:20px ;
+      font-size: 10px;
+    }
+    #CGPAcount{
+        font-size: 10px;
+    }
+    #cross{
+      height: 18px;
+      width: 20px;
+      font-size:8px;
+      font-weight: 1000;  
+    }
+
+
+
+}
+@media screen and (min-width:500px) and (max-width:600px){
+    #header{
+        height:60px;
+    }
+    #container{
+        width: 48%;
+        margin-left: 25%;
+        border-radius: 15px;
+    }
+    #heading{
+        margin-left: 37%;
+        font-size: 15px;
+
+    }
+    input{
+        width: 53px;
+        height: 7px;
+        font-size: 10px;
+    }
+    #ccg{
+     font-size: 10px;
+
+
+    }
+    #Count{
+       margin-left: 12%;
+       height:15px ;
+       font-size: 7px;
+    }
+    #CGPAtxt{
+        margin-left: 9%;
+        font-size: 5px;
+    }
+    #AddSubject{
+      height:15px ;
+      font-size: 7px;
+    }
+    #CGPAcount{
+        font-size: 7px;
+    }
+    #cross{
+      height: 15px;
+      width: 18px;
+      font-size:4px;
+      font-weight: 1000;  
+    }
+
+
+
+}
+@media screen and (min-width:465px) and (max-width:500px){
+    #container{
+        width: 34%;
+        margin-left: 30%;
+        border-radius: 15px;
+        
+    }
+    #header{
+        height:60px;
+    }
+    #heading{
+        margin-left: 38%;
+        font-size: 10px;
+
+    }
+    input{
+        width: 28px;
+        height: 5px;
+        font-size: 5px;
+    }
+    #ccg{
+     font-size: 7px;
+
+
+    }
+    #Count{
+       margin-left: 5%;
+       height:12px ;
+       font-size: 4px;
+    }
+    #CGPAtxt{
+        margin-left: 4%;
+        font-size: 5px;
+    }
+    #AddSubject{
+      height:12px;
+      font-size: 4px;
+
+    }
+    #CGPAcount{
+        font-size: 4px;
+    }
+    #cross{
+      height: 14px;
+      width: 17px;
+      font-size:3px;
+      font-weight: 1000;  
+    }
+
+
+
+}
+@media screen and (min-width:424px) and (max-width:465px){
+    #container{
+        width: 37%;
+        margin-left: 30%;
+        border-radius: 15px;
+        
+    }
+    #header{
+        height:60px;
+    }
+    #heading{
+        margin-left: 38%;
+        font-size: 10px;
+
+    }
+    input{
+        width: 28px;
+        height: 5px;
+        font-size: 5px;
+    }
+    #ccg{
+     font-size: 7px;
+
+
+    }
+    #Count{
+       margin-left: 5%;
+       height:12px ;
+       font-size: 4px;
+    }
+    #CGPAtxt{
+        margin-left: 4%;
+        font-size: 5px;
+    }
+    #AddSubject{
+      height:12px;
+      font-size: 4px;
+
+    }
+    #CGPAcount{
+        font-size: 4px;
+    }
+    #cross{
+      height: 13px;
+      width: 11px;
+      font-size:4px;
+      font-weight: 1000;  
+    }
+
+
+
+}
+@media screen and (min-width:402px) and (max-width:424px){
+    #container{
+        width: 40%;
+        margin-left: 30%;
+        border-radius: 15px;
+        
+    }
+    #header{
+        height:60px;
+    }
+    #heading{
+        margin-left: 38%;
+        font-size: 10px;
+
+    }
+    input{
+        width: 28px;
+        height: 5px;
+        font-size: 5px;
+    }
+    #ccg{
+     font-size: 7px;
+
+
+    }
+    #Count{
+       margin-left: 5%;
+       height:12px ;
+       font-size: 4px;
+    }
+    #CGPAtxt{
+        margin-left: 4%;
+        font-size: 5px;
+    }
+    #AddSubject{
+      height:12px;
+      font-size: 4px;
+
+    }
+    #CGPAcount{
+        font-size: 4px;
+    }
+    #cross{
+      height: 14px;
+      width: 17px;
+      font-size:3px;
+      font-weight: 1000;  
+    }
+
+
+
+}
+@media screen and (min-width:370px) and (max-width:402px){
+    #container{
+        width: 44%;
+        margin-left: 28%;
+        border-radius: 15px;
+        
+    }
+    #header{
+        height:60px;
+    }
+    #heading{
+        margin-left: 38%;
+        font-size: 10px;
+
+    }
+    input{
+        width: 28px;
+        height: 5px;
+        font-size: 5px;
+    }
+    #ccg{
+     font-size: 10px;
+
+
+    }
+    #Count{
+       margin-left: 5%;
+       height:12px ;
+       font-size: 4px;
+    }
+    #CGPAtxt{
+        margin-left: 4%;
+        font-size: 5px;
+    }
+    #AddSubject{
+      height:12px;
+      font-size: 4px;
+
+    }
+    #CGPAcount{
+        font-size: 4px;
+    }
+    #cross{
+      height: 14px;
+      width: 17px;
+      font-size:3px;
+      font-weight: 1000;  
+    }
+
+
+
+}
+@media screen and (min-width:340px) and (max-width:370px){
+    #container{
+        width: 48%;
+        margin-left: 26%;
+        border-radius: 15px;
+        
+    }
+    #header{
+        height:60px;
+    }
+    #heading{
+        margin-left: 38%;
+        font-size: 10px;
+
+    }
+    input{
+        width: 28px;
+        height: 5px;
+        font-size: 5px;
+    }
+    #ccg{
+     font-size: 10px;
+
+
+    }
+    #Count{
+       margin-left: 5%;
+       height:12px ;
+       font-size: 4px;
+    }
+    #CGPAtxt{
+        margin-left: 4%;
+        font-size: 5px;
+    }
+    #AddSubject{
+      height:12px;
+      font-size: 4px;
+
+    }
+    #CGPAcount{
+        font-size: 4px;
+    }
+    #cross{
+      height: 14px;
+      width: 17px;
+      font-size:3px;
+      font-weight: 1000;  
+    }
+
+
+
+}
+@media screen and (min-width:313px) and (max-width:340px){
+    #container{
+        width: 52%;
+        margin-left: 26%;
+        border-radius: 15px;
+        
+    }
+    #header{
+        height:60px;
+    }
+    #heading{
+        margin-left: 38%;
+        font-size: 10px;
+
+    }
+    input{
+        width: 28px;
+        height: 5px;
+        font-size: 5px;
+    }
+    #ccg{
+     font-size: 10px;
+
+
+    }
+    #Count{
+       margin-left: 5%;
+       height:12px ;
+       font-size: 4px;
+    }
+    #CGPAtxt{
+        margin-left: 4%;
+        font-size: 5px;
+    }
+    #AddSubject{
+      height:12px;
+      font-size: 4px;
+
+    }
+    #CGPAcount{
+        font-size: 4px;
+    }
+    #cross{
+      height: 14px;
+      width: 17px;
+      font-size:3px;
+      font-weight: 1000;  
+    }
+
+
+
+}
+
+@media screen and (min-width:280px) and (max-width:313px){
+    #container{
+        width: 59%;
+        margin-left: 25%;
+        border-radius: 15px;
+        
+    }
+    #header{
+        height:60px;
+    }
+    #heading{
+        margin-left: 38%;
+        font-size: 10px;
+
+    }
+    input{
+        width: 28px;
+        height: 5px;
+        font-size: 5px;
+    }
+    #ccg{
+     font-size: 10px;
+
+
+    }
+    #Count{
+       margin-left: 5%;
+       height:12px ;
+       font-size: 4px;
+    }
+    #CGPAtxt{
+        margin-left: 4%;
+        font-size: 5px;
+    }
+    #AddSubject{
+      height:12px;
+      font-size: 4px;
+
+    }
+    #CGPAcount{
+        font-size: 4px;
+    }
+    #cross{
+      height: 14px;
+      width: 17px;
+      font-size:3px;
+      font-weight: 1000;  
+    }
+
+
+
+}
